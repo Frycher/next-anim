@@ -1,8 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function About() {
   return (
     <div className={styles.container}>
       <Head>
@@ -11,8 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.main} style={{backgroundColor:'#432444'}}>
-        <h1 className={styles.title}>HOME PAGE</h1>
+      <div className={styles.main} style={{backgroundColor: '#534578'}}>
+        <h1 className={styles.title}>About</h1>
       </div>
     </div>
   );
